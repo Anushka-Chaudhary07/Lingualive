@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/736x/db/b4/01/dbb4012c75abe21e0697648ba85ca682.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #907f7f;
+  }
+  
+  
+  .container, .register-page, .translate-page {
+    max-width: 1800px;
+    max-height: 2800px;
+    margin: 80px auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .container {
+    
+    border-left: 4px solid #f3f3f3;
+  }
+  
+  .container h2 {
+    color: #f1f6f2;
+  }
+  
+  .container button {
+    background-color: #230947c1;
+    color: white;
+  }
+  
+  .container button:hover {
+    background-color: #ce954bb2;
+  }
+  
+  .container .form-nav a {
+    color: #f4faf5;
+  }
+  
+  
+  .register-page {
+   
+    border-left: 4px solid #f2f0f0;
+  }
+  
+  .register-page h2 {
+    color: #fbf7f7;
+  }
+  
+  .register-page button {
+    background-color: #b17a7a98;
+    color: white;
+  }
+  
+  .register-page button:hover {
+    background-color: #e5383577;
+  }
+  
+  .register-page .form-nav a {
+    color: #b88682;
+  }
+  
+  
+  .translate-page {
+    
+    border-left: 4px solid #c1d4e38d;
+  }
+  
+  .translate-page h1 {
+    color: #5d778b;
+  }
+  
+  .translate-page button {
+    background-color: #0721367d;
+    color: white;
+  }
+  
+  .translate-page button:hover {
+    background-color: #83a1bc;
+  }
+  
+  .translate-page .translated-text {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #dad1d1;
+    border-left: 4px solid #0b3455af;
+    border-radius: 5px;
+  }
+  
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #12092a9b;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  textarea::placeholder {
+    color: #aaa;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: rgba(240, 200, 200, 0.714);
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  .form-nav {
+    text-align: center;
+  }
+  
+  .form-nav a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .form-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .container, .register-page, .translate-page {
+      margin: 20px auto;
+      padding: 15px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
