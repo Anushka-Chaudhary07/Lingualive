@@ -12,3 +12,8 @@ LinguaLive is a full-stack language translation web app that allows users to reg
 - 💾 MongoDB integration for storing users and translations
 - 🎨 Responsive UI with custom CSS styling
 
+##🛠️ Tech Stack
+| Frontend                      | Backend                   | Database | API                      |
+| ----------------------------- | ------------------------- | -------- | ------------------------ |
+| React.js, Axios, React Router | Flask, Python, Flask-CORS | MongoDB  | MyMemory Translation API |
+
